@@ -4,7 +4,7 @@ pragma solidity ^0.8;
 
 // safe math
 contract SafeMath{
-    function testUnderflow() public pure returns(uint){
+    function testUnderflow() public pure returns(uint){  // function failled
         uint x = 0;
         x --;
         return x;
