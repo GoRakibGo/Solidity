@@ -14,7 +14,7 @@ contract ViewAndPureFunctions{
     function addToNum(uint x) external view returns (uint){
         return num + 1;
     }
-    function add(uint x, uint y) external pure return(uint){
+    function add(uint x, uint y) external pure returns (uint){
         return x + y;
     }
 }
